@@ -1,0 +1,20 @@
+.navigationBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 20vh;
+    background-color: #FAF2F0;
+}
+
+
+.navigationBar_logo {
+    height: 100px;
+}
+
+
+.navigationBar_menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
