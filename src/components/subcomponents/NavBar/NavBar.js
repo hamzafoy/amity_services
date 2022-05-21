@@ -35,6 +35,14 @@ function NavBar() {
                 Travel
             </h1>
 
+            <h1>
+                Other Services
+            </h1>
+
+            <section className="navigationBar_contacts">
+                
+            </section>
+
         </aside>
 
     </nav>
