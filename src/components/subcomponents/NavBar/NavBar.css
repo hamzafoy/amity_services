@@ -22,3 +22,15 @@
 }
 
 
+.navigationBar_menu__link {
+    color: #770057;
+    font-family: 'Akshar', sans-serif;
+    font-size: 1.25em;
+    letter-spacing: 0.125em;
+    text-decoration: none;
+}
+
+.navigationBar_menu__link:hover {
+    color: #362007;
+    transition: 10s;
+}
