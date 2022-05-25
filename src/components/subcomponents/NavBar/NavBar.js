@@ -3,6 +3,7 @@
 ::::::::::::::::::::::::::::::::::::::::*/
 
 import './NavBar.css';
+import { Link } from 'react-router-dom';
 
 
 
@@ -23,21 +24,29 @@ function NavBar() {
 
         <aside className="navigationBar_menu">
 
-            <h1>
-                Accounting
-            </h1>
+            <Link to="/accounting" className="navigationBar_menu__link" title="Accounting">
+                <h1>
+                    Accounting
+                </h1>
+            </Link>
 
-            <h1>
-                Paralegal
-            </h1>
+            <Link to="/paralegal" className="navigationBar_menu__link" title="Paralegal">
+                <h1>
+                    Paralegal
+                </h1>
+            </Link>
 
-            <h1>
-                Travel
-            </h1>
+            <Link to="/travel" className="navigationBar_menu__link" title="Travel">
+                <h1>
+                    Travel
+                </h1>
+            </Link>
 
-            <h1>
-                Other Services
-            </h1>
+            <Link to="/additional_services" className="navigationBar_menu__link" title="Other Services">
+                <h1>
+                    Other Services
+                </h1>
+            </Link>
 
             <section className="navigationBar_contacts">
                 
