@@ -4,7 +4,10 @@
     align-items: center;
     justify-content: space-evenly;
     min-height: 20vh;
+    position: sticky; 
+    top: 0;
     background-color: #FAF2F0;
+    opacity: 0.66;
 }
 
 

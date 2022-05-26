@@ -1,0 +1,31 @@
+.homePage {
+    min-height: 120vh;
+}
+
+
+.homePage_horizontalLine {
+    width: 90%;
+    margin: 10vh auto;
+}
+
+
+.homePage_info {
+    display: flex;
+    flex-direction: column;
+    margin: 5.5vh 0;
+}
+
+
+.homePage_info h1 {
+    margin-right: 14%;
+    font-family: 'Akshar', sans-serif;
+    font-size: 1.65em;
+    letter-spacing: 0.075em;
+}
+
+
+.homePage_info p {
+    margin: 0 33%;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-align: justify;
+}
