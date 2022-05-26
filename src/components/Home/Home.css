@@ -1,31 +1,47 @@
 .homePage {
-    min-height: 120vh;
+    min-height: 100vh;
+}
+
+
+.homePage_carousel {
+    margin: 0 0 10vh;
 }
 
 
 .homePage_horizontalLine {
-    width: 90%;
-    margin: 10vh auto;
+    margin: 0 auto;
+}
+
+
+.offColorContainer {
+    background-color: #f5f5f5;
 }
 
 
 .homePage_info {
     display: flex;
     flex-direction: column;
-    margin: 5.5vh 0;
+    margin: 0 33% 0;
+    padding: 5vh 0;
 }
 
 
 .homePage_info h1 {
-    margin-right: 14%;
     font-family: 'Akshar', sans-serif;
-    font-size: 1.65em;
+    font-size: 2.05em;
     letter-spacing: 0.075em;
+    text-align: left;
 }
 
 
 .homePage_info p {
-    margin: 0 33%;
     font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1.25em;
+    line-height: 1.35em;
     text-align: justify;
+}
+
+
+.homePage_teamList {
+    min-height: 20vh;
 }

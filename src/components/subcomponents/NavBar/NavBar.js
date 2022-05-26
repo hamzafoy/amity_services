@@ -24,6 +24,12 @@ function NavBar() {
 
         <aside className="navigationBar_menu">
 
+            <Link to="/" className="navigationBar_menu__link" title="Home">
+                <h1>
+                    Home
+                </h1>
+            </Link>
+
             <Link to="/accounting" className="navigationBar_menu__link" title="Accounting">
                 <h1>
                     Accounting

@@ -1,0 +1,69 @@
+.footerBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    min-height: 30vh;
+    background-color: #f1dad4;
+}
+
+
+.footerBar_contactInfo {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.footerBar_map {
+    margin-top: 2vh;
+}
+
+
+.footerBar_contactInfo__list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5vw;
+}
+
+
+.footerBar_contactInfo__list h1 {
+    font-family: 'Akshar', sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 0.025em;
+    text-align: left;
+    text-decoration: underline;
+}
+
+
+.footerBar_contactInfo__list p {
+    margin-block-end: 1vh;
+    margin-block-start: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-align: left;
+}
+
+
+.footerBar_menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footerBar_menu h1 {
+    font-family: 'Akshar', sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 0.025em;
+    text-decoration: underline;
+}
+
+
+.footerBar_menu__link {
+    color: #770057;
+    font-family: 'Akshar', sans-serif;
+    text-decoration: none;
+}
+
+
+.footerBar_menu__link p {
+    margin-block-start: 0;
+}
