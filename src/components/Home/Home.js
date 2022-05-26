@@ -73,6 +73,12 @@ function App() {
                   Mohamed Aljoujah
                 </h1>
 
+                <img
+                alt="Images showcasing services for Amity."
+                className="homePage_card__foto"
+                src="https://via.placeholder.com/150x200?text=Headshot+Here"
+                />
+
                 <p>
                   CPA, Travel Agent
                 </p>
@@ -85,6 +91,12 @@ function App() {
                   Omar Karim
                 </h1>
 
+                <img
+                alt="Images showcasing services for Amity."
+                className="homePage_card__foto"
+                src="https://via.placeholder.com/150x200?text=Headshot+Here"
+                />
+
                 <p>
                   Paralegal
                 </p>
@@ -96,6 +108,12 @@ function App() {
                 <h1>
                   Juman
                 </h1>
+
+                <img
+                alt="Images showcasing services for Amity."
+                className="homePage_card__foto"
+                src="https://via.placeholder.com/150x200?text=Headshot+Here"
+                />
 
                 <p>
                   Marketing

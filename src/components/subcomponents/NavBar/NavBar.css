@@ -1,3 +1,19 @@
+/*::::::::::::::::::::::::::::::::::::::::
+::::::::::  Mobile Layout CSS  :::::::::::
+::::::::::::::::::::::::::::::::::::::::*/
+
+.navigationBar {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*::::::::::::::::::::::::::::::::::::::::
+::::::  Desktop/Laptop Layout CSS  :::::::
+::::::::::::::::::::::::::::::::::::::::*/
+
+@media (min-width: 1100px) {
+
 .navigationBar {
     display: flex;
     flex-direction: row;
@@ -37,4 +53,6 @@
 .navigationBar_menu__link:hover {
     color: #362007;
     transition: 2s;
+}
+
 }
