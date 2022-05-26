@@ -22,11 +22,12 @@
     display: flex;
     flex-direction: column;
     margin: 0 33% 0;
-    padding: 5vh 0;
+    padding: 12.5vh 0;
 }
 
 
-.homePage_info h1 {
+.homePage_info h1,
+.homePage_teamList h1 {
     font-family: 'Akshar', sans-serif;
     font-size: 2.05em;
     letter-spacing: 0.075em;
@@ -34,7 +35,8 @@
 }
 
 
-.homePage_info p {
+.homePage_info p,
+.homePage_teamList p {
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 1.25em;
     line-height: 1.35em;
@@ -43,5 +45,39 @@
 
 
 .homePage_teamList {
+    display: flex;
+    flex-direction: column;
+    width: 66%;
+    margin: 0 auto;
+    padding: 12.5vh 0;
     min-height: 20vh;
+}
+
+
+.homePage_staff {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+}
+
+
+.homePage_staff__card {
+    width: 175px;
+    padding: 0 1.5vw;
+    border: 1px #e1e1e1 solid;
+    box-shadow: 1px 2px 2px #cecece;
+    background-color: #FAF2F0;
+}
+
+
+.homePage_staff__card h1 {
+    font-size: 1.15em;
+    text-align: center;
+}
+
+
+.homePage_staff__card p {
+    font-size: 0.95em;
+    text-align: left;
 }

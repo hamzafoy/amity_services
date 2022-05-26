@@ -56,7 +56,55 @@ function App() {
           />
 
           <section className="homePage_teamList">
-            
+
+            <h1>
+              Who is on our Team?
+            </h1>
+
+            <p>
+              Amity Services has the following staff members.
+            </p>
+
+            <aside className="homePage_staff">
+
+              <article className="homePage_staff__card">
+
+                <h1>
+                  Mohamed Aljoujah
+                </h1>
+
+                <p>
+                  CPA, Travel Agent
+                </p>
+
+              </article>
+
+              <article className="homePage_staff__card">
+
+                <h1>
+                  Omar Karim
+                </h1>
+
+                <p>
+                  Paralegal
+                </p>
+
+              </article>
+
+              <article className="homePage_staff__card">
+
+                <h1>
+                  Juman
+                </h1>
+
+                <p>
+                  Marketing
+                </p>
+
+              </article>
+
+            </aside>
+
           </section>
         
         </div>
