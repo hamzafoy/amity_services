@@ -3,6 +3,7 @@
 ::::::::::::::::::::::::::::::::::::::::*/
 
 import './NavBar.css';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 
@@ -12,7 +13,16 @@ import { Link } from 'react-router-dom';
 ::::::::::::::::::::::::::::::::::::::::*/
 
 function NavBar() {
-  return (
+
+    const collapsed = useState(true);
+    const MySubcomponents = {
+        Hamburger: function Hamburger() {
+            return <p className="hamburger_icon">&#8803;</p>
+        }
+    };
+    
+
+    return (
     
     <nav className="navigationBar">
 
@@ -22,6 +32,8 @@ function NavBar() {
         src="https://via.placeholder.com/450x100?text=Amity+Services+Logo+goes+here"
         />
 
+        {window.innerWidth < 1000 ? <MySubcomponents.Hamburger/> : null}
+        
         <aside className="navigationBar_menu">
 
             <Link to="/" className="navigationBar_menu__link" title="Home">

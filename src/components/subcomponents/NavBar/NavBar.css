@@ -5,6 +5,24 @@
 .navigationBar {
     display: flex;
     flex-direction: column;
+    min-height: 20vh;
+    background-color: #FAF2F0;
+}
+
+
+.navigationBar_menu__link {
+    color: #770057;
+    font-family: 'Akshar', sans-serif;
+    font-size: 0.85em;
+    letter-spacing: 0.125em;
+    text-decoration: none;
+    transition: 2s;
+}
+
+
+.navigationBar_menu__link:hover {
+    color: #362007;
+    transition: 2s;
 }
 
 

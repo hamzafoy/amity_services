@@ -13,6 +13,7 @@ import NavBar from '../subcomponents/NavBar/NavBar';
 ::::::::::::::::::::::::::::::::::::::::*/
 
 function App() {
+
   return (
 
     <>
