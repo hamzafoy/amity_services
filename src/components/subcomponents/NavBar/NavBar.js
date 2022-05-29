@@ -54,10 +54,13 @@ const menu = (
 
 function NavBar() {
 
-    const collapsed = useState(true);
+    const [collapsed, setCollapsed] = useState(true);
+    const handleToggle = () => {
+        setCollapsed(prev => !prev)
+    };
     const MySubcomponents = {
         Hamburger: function Hamburger() {
-            return <p className="hamburger_icon">&#8803;</p>
+            return <p className="hamburger_icon" onClick={handleToggle}>&#8803;</p>
         }
     };
     
@@ -74,7 +77,7 @@ function NavBar() {
 
         {window.innerWidth < 1000 ? <MySubcomponents.Hamburger/> : null}
 
-        {(collapsed ? null : menu && window.innerWidth < 1000) || (window.innerWidth > 1000 ? menu : null)}
+        {(collapsed ? null : menu && window.innerWidth < 1000) || window.innerWidth > 1000 ? menu : null}
 
         {/* <aside className="navigationBar_menu">
 

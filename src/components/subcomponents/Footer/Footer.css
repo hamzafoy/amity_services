@@ -1,3 +1,71 @@
+/*::::::::::::::::::::::::::::::::::::::::
+::::::::::  Mobile Layout CSS  :::::::::::
+::::::::::::::::::::::::::::::::::::::::*/
+
+
+.footerBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 30vh;
+    background-color: #f1dad4;
+}
+
+
+.footerBar_contactInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footerBar_map {
+    margin: 5vh auto 0;
+}
+
+
+.footerBar_contactInfo__list h1 {
+    font-family: 'Akshar', sans-serif;
+    font-size: 1.2em;
+    letter-spacing: 0.025em;
+    text-decoration: underline;
+}
+
+
+.footerBar_contactInfo__list p {
+    margin-block-end: 1vh;
+    margin-block-start: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 0.8em;
+}
+
+
+.footerBar_menu h1 {
+    font-family: 'Akshar', sans-serif;
+    font-size: 1.2em;
+    letter-spacing: 0.025em;
+    text-decoration: underline;
+}
+
+
+.footerBar_menu__link {
+    color: #770057;
+    font-family: 'Akshar', sans-serif;
+    text-decoration: none;
+}
+
+
+.footerBar_menu__link p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 0.8em;
+}
+
+/*::::::::::::::::::::::::::::::::::::::::
+::::::  Desktop/Laptop Layout CSS  :::::::
+::::::::::::::::::::::::::::::::::::::::*/
+
+@media (min-width: 1100px) {
+
 .footerBar {
     display: flex;
     flex-direction: row;
@@ -39,6 +107,7 @@
     margin-block-end: 1vh;
     margin-block-start: 0;
     font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1em;
     text-align: left;
 }
 
@@ -66,4 +135,6 @@
 
 .footerBar_menu__link p {
     margin-block-start: 0;
+}
+
 }
