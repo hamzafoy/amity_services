@@ -39,6 +39,11 @@
 }
 
 
+.footerBar_menu {
+    margin: 0 0 3vh;
+}
+
+
 .footerBar_menu h1 {
     font-family: 'Akshar', sans-serif;
     font-size: 1.2em;
@@ -116,6 +121,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin: 0;
 }
 
 .footerBar_menu h1 {
