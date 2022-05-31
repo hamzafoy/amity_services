@@ -37,11 +37,11 @@ function Footer() {
                 </h1>
 
                 <p>
-                    6500 Six Mile Ln,<br/>Louisville KY 40218
+                    6500 Six Mile Ln Ste 1,<br/>Louisville KY 40218
                 </p>
 
                 <p>
-                    (502) 930-8391
+                    Office: (502) 742-0007<br/>Cell: (502) 422-1378
                 </p>
 
                 <p>
