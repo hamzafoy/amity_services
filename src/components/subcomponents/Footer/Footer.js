@@ -84,7 +84,7 @@ function Footer() {
 
             <Link to="/additional_services" className="footerBar_menu__link" title="Other Services">
                 <p>
-                    Other Services
+                    Property Management
                 </p>
             </Link>
 

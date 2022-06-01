@@ -41,7 +41,7 @@ const menu = (
 
             <Link to="/additional_services" className="navigationBar_menu__link" title="Other Services">
                 <h1>
-                    Other Services
+                    Property Management
                 </h1>
             </Link>
 

@@ -44,7 +44,7 @@ function App() {
                 company that specializes in preparing and selling travel packages for those looking to 
                 travel abroad from the United States to vacation or to attend Hajj or Umrah. The Amity 
                 Services office in Kentucky is operated by Mohamed Aljoujah and has a suite of services 
-                in addition to serving as a travel agency including immigration legal services, CPA, tax 
+                in addition to serving as a travel agency including immigration legal services, tax 
                 preparation, document preparation, notary public, translations to Arabic, English, &amp; 
                 French.
               </p>
@@ -81,7 +81,7 @@ function App() {
                 />
 
                 <p>
-                  CPA, Travel Agent
+                  Travel Agent
                 </p>
 
               </article>
