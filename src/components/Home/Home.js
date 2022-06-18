@@ -36,15 +36,14 @@ function App() {
             <section className="homePage_info">
 
               <h1>
-                What is Amity Services?
+                What is Amity Travel
               </h1>
 
               <p>
-                Amity Services LLC is one of the subsidiaries of Amity Travels which is a nationwide
-                company that specializes in preparing and selling travel packages for those looking to 
+                Amity Travel &amp; More LLC specializes in preparing and selling travel packages for those looking to 
                 travel abroad from the United States to vacation or to attend Hajj or Umrah. The Amity 
                 Services office in Kentucky is operated by Mohamed Aljoujah and has a suite of services 
-                in addition to serving as a travel agency including immigration legal services, tax 
+                in addition to serving as a travel agency including tax 
                 preparation, document preparation, notary public, translations to Arabic, English, &amp; 
                 French.
               </p>
@@ -63,7 +62,7 @@ function App() {
             </h1>
 
             <p>
-              Amity Services has the following staff members.
+              Amity Travel &amp; More LLC has the following staff members.
             </p>
 
             <aside className="homePage_staff">
@@ -86,7 +85,7 @@ function App() {
 
               </article>
 
-              <article className="homePage_staff__card">
+              {/* <article className="homePage_staff__card">
 
                 <h1>
                   Omar Karim
@@ -102,7 +101,7 @@ function App() {
                   Paralegal
                 </p>
 
-              </article>
+              </article> */}
 
               <article className="homePage_staff__card">
 

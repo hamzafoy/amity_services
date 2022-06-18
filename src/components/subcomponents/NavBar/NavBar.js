@@ -27,12 +27,6 @@ const menu = (
                 </h1>
             </Link>
 
-            <Link to="/paralegal" className="navigationBar_menu__link" title="Paralegal">
-                <h1>
-                    Paralegal
-                </h1>
-            </Link>
-
             <Link to="/travel" className="navigationBar_menu__link" title="Travel">
                 <h1>
                     Travel

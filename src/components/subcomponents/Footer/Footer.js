@@ -41,7 +41,7 @@ function Footer() {
                 </p>
 
                 <p>
-                    Office: (502) 742-0007<br/>Cell: (502) 422-1378
+                    Office: (502) 742-0007<br/>Cell: (502) 572-7111
                 </p>
 
                 <p>
@@ -67,12 +67,6 @@ function Footer() {
             <Link to="/accounting" className="footerBar_menu__link" title="Accounting">
                 <p>
                     Accounting
-                </p>
-            </Link>
-
-            <Link to="/paralegal" className="footerBar_menu__link" title="Paralegal">
-                <p>
-                    Paralegal
                 </p>
             </Link>
 
