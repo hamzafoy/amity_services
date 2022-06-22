@@ -5,6 +5,12 @@
 import './Travel.css';
 import Footer from '../subcomponents/Footer/Footer';
 import NavBar from '../subcomponents/NavBar/NavBar';
+import africa from './resources/kenya.jpeg';
+import cancun from './resources/cancun.jpg';
+import europe from './resources/europe.jpg';
+import hawaii from './resources/hawaii.jpg';
+import mideast from './resources/amman.jpg';
+import turkey from './resources/turkey.jpg';
 
 
 
@@ -56,7 +62,7 @@ function Travel() {
                   <img
                   alt="Image of Nairobi."
                   className="travelPage_card__foto"
-                  src="https://via.placeholder.com/365x175?text=Image+of+Travel+Destination+Here"
+                  src={africa}
                   />
 
                 </article>
@@ -68,9 +74,9 @@ function Travel() {
                   </h1>
 
                   <img
-                  alt="Image of Nairobi."
+                  alt="Image of Cancun, Mexico."
                   className="travelPage_card__foto"
-                  src="https://via.placeholder.com/365x175?text=Image+of+Travel+Destination+Here"
+                  src={cancun}
                   />
 
                 </article>
@@ -82,9 +88,9 @@ function Travel() {
                   </h1>
 
                   <img
-                  alt="Image of Nairobi."
+                  alt="Image of Budapest, Hungary."
                   className="travelPage_card__foto"
-                  src="https://via.placeholder.com/365x175?text=Image+of+Travel+Destination+Here"
+                  src={europe}
                   />
 
                 </article>
@@ -96,9 +102,9 @@ function Travel() {
                   </h1>
 
                   <img
-                  alt="Image of Nairobi."
+                  alt="Image of Hawaii."
                   className="travelPage_card__foto"
-                  src="https://via.placeholder.com/365x175?text=Image+of+Travel+Destination+Here"
+                  src={hawaii}
                   />
 
                 </article>
@@ -110,9 +116,9 @@ function Travel() {
                   </h1>
 
                   <img
-                  alt="Image of Nairobi."
+                  alt="Image of Amman, Jordan."
                   className="travelPage_card__foto"
-                  src="https://via.placeholder.com/365x175?text=Image+of+Travel+Destination+Here"
+                  src={mideast}
                   />
 
                 </article>
@@ -124,9 +130,9 @@ function Travel() {
                   </h1>
 
                   <img
-                  alt="Image of Nairobi."
+                  alt="Image of Istanbul, Turkey."
                   className="travelPage_card__foto"
-                  src="https://via.placeholder.com/365x175?text=Image+of+Travel+Destination+Here"
+                  src={turkey}
                   />
 
                 </article>
