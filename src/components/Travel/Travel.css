@@ -13,6 +13,7 @@
     font-size: 1.65em;
     letter-spacing: 0.075em;
     text-align: center;
+    margin-top: 10vh;
 }
 
 
@@ -21,12 +22,12 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-bottom: 10vh;
 }
 
 
 .travelPage_options__card {
-    margin: 5vh 0;
-    padding: 0 5%;
+    margin: 5vh 2vw;
     border: 1px #e1e1e1 solid;
     box-shadow: 1px 2px 2px #cecece;
     background-color: #dfe7f3;

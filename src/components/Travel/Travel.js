@@ -56,7 +56,7 @@ function Travel() {
                   <img
                   alt="Image of Nairobi."
                   className="travelPage_card__foto"
-                  src="https://via.placeholder.com/375x175?text=Image+of+Travel+Destination+Here"
+                  src="https://via.placeholder.com/365x175?text=Image+of+Travel+Destination+Here"
                   />
 
                 </article>
@@ -70,7 +70,7 @@ function Travel() {
                   <img
                   alt="Image of Nairobi."
                   className="travelPage_card__foto"
-                  src="https://via.placeholder.com/375x175?text=Image+of+Travel+Destination+Here"
+                  src="https://via.placeholder.com/365x175?text=Image+of+Travel+Destination+Here"
                   />
 
                 </article>
@@ -84,7 +84,7 @@ function Travel() {
                   <img
                   alt="Image of Nairobi."
                   className="travelPage_card__foto"
-                  src="https://via.placeholder.com/375x175?text=Image+of+Travel+Destination+Here"
+                  src="https://via.placeholder.com/365x175?text=Image+of+Travel+Destination+Here"
                   />
 
                 </article>
@@ -98,7 +98,7 @@ function Travel() {
                   <img
                   alt="Image of Nairobi."
                   className="travelPage_card__foto"
-                  src="https://via.placeholder.com/375x175?text=Image+of+Travel+Destination+Here"
+                  src="https://via.placeholder.com/365x175?text=Image+of+Travel+Destination+Here"
                   />
 
                 </article>
@@ -112,7 +112,7 @@ function Travel() {
                   <img
                   alt="Image of Nairobi."
                   className="travelPage_card__foto"
-                  src="https://via.placeholder.com/375x175?text=Image+of+Travel+Destination+Here"
+                  src="https://via.placeholder.com/365x175?text=Image+of+Travel+Destination+Here"
                   />
 
                 </article>
@@ -126,7 +126,7 @@ function Travel() {
                   <img
                   alt="Image of Nairobi."
                   className="travelPage_card__foto"
-                  src="https://via.placeholder.com/375x175?text=Image+of+Travel+Destination+Here"
+                  src="https://via.placeholder.com/365x175?text=Image+of+Travel+Destination+Here"
                   />
 
                 </article>
