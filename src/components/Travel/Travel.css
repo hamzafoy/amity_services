@@ -1,0 +1,55 @@
+/*::::::::::::::::::::::::::::::::::::::::
+::::::::::  Mobile Layout CSS  :::::::::::
+::::::::::::::::::::::::::::::::::::::::*/
+
+.travelPage_info {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.travelPage_info h1 {
+    font-family: 'Akshar', sans-serif;
+    font-size: 1.65em;
+    letter-spacing: 0.075em;
+    text-align: center;
+}
+
+
+.travelPage_options {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.travelPage_options__card {
+    margin: 5vh 0;
+    padding: 0 5%;
+    border: 1px #e1e1e1 solid;
+    box-shadow: 1px 2px 2px #cecece;
+    background-color: #dfe7f3;
+}
+
+
+.travelPage_card__foto {
+    padding-bottom: 3vh;
+}
+
+
+/*::::::::::::::::::::::::::::::::::::::::
+::::::  Desktop/Laptop Layout CSS  :::::::
+::::::::::::::::::::::::::::::::::::::::*/
+
+@media (min-width: 1100px) {
+
+.travelPage_info h1 {
+    font-family: 'Akshar', sans-serif;
+    font-size: 2.05em;
+    letter-spacing: 0.075em;
+    text-align: center;
+}
+    
+
+}
